@@ -45,7 +45,7 @@ const emergencyContacts = {
 // --- Panggilan API Gemini (DIPERBARUI) ---
 const callGeminiAPI = async (message: string, mood?: string): Promise<string> => {
   const API_KEY = 'AIzaSyAU0RxhW5ivSFYqtGsO_BLUzweMaYRcp1g'; 
-  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
+  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-latest:generateContent?key=${API_KEY}`;
   
   let systemPrompt = `Anda adalah Deafine, seorang psikolog AI yang penuh empati, hangat, dan suportif. Tugas Anda adalah menjadi teman curhat yang aman bagi pengguna.
   Aturan utama Anda:
